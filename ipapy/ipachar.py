@@ -376,6 +376,9 @@ class IPAChar(object):
 
     def __eq__(self, other) -> bool:
         return self.is_equivalent(other)
+    
+    def __ne__(self, other) -> bool:
+        return not self.is_equivalent(other)
 
     @property
     def descriptors(self):
