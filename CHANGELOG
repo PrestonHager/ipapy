@@ -4,6 +4,12 @@ Changelog
 v0.0.9 (2019-05-05)
 -------------------
 
+#. Added equality and inequality operators to IPAChar
+
+
+v0.0.9 (2019-05-05)
+-------------------
+
 #. Fix for Windows users when installing via PyPI
 
 
