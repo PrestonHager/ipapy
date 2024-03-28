@@ -13,14 +13,14 @@ __copyright__ = "Copyright 2016, Alberto Pettarin (www.albertopettarin.it)"
 __license__ = "MIT"
 __email__ = "alberto@albertopettarin.it"
 
-__version__ = "0.0.9"
+__version__ = "0.0.10"
 __status__ = "Production"
 
 setup(
     name="ipapy",
     packages=["ipapy", "ipapy.data"],
     package_data={"ipapy.data": ["*.dat"]},
-    version="0.0.9.0",
+    version="0.0.10",
     description="ipapy is a Python module to work with IPA strings",
     author="Alberto Pettarin",
     author_email="alberto@albertopettarin.it",
@@ -51,11 +51,16 @@ setup(
         "Operating System :: Microsoft :: Windows",
         "Operating System :: POSIX :: Linux",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Documentation",
         "Topic :: Education",
         "Topic :: Education :: Computer Aided Instruction (CAI)",
