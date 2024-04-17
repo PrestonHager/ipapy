@@ -4,5 +4,6 @@ bak
 dist
 ipapy.egg-info
 zzz_*
+*.whl
 
 build/
